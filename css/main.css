@@ -1,0 +1,141 @@
+P {
+
+color: #435643;
+
+font-size: 1.rem;
+}
+
+@media screen and (min-width: 40em){
+		p{
+			font-size: 1.5rem;
+
+		}
+}
+
+@media screen and (min-width:  64em){
+		P{
+			font-size: 2rem;
+
+		}
+}
+
+@media screen and (min-width: 40em){
+     .container{
+       display: flex;
+       justify-content: space-between;
+     }
+     main .main-content {
+       width: 60%;
+}
+.side-content {
+       width: 35%;
+	}
+}
+
+header{
+color: #435643;
+display: block;
+}
+   ul {
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+}
+
+   li {
+     display: inline-block;
+}
+header nav{
+	magrin-top: 1.5rem;
+}
+   header {
+      padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+      border-bottom: 1rem solid #435643;
+      text-align: center;
+      background-color: #ffffff;
+}
+
+   header ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+header li {
+     display: inline-block;
+   }
+   header li a {
+     text-decoration: none;
+     color: #000000;
+     padding: 0 10px;
+     background-color: #C7C9C5;
+ 	padding:  .5rem 1rem;
+ 	display: inline-block;
+ 	border-radius: 1rem;
+}
+
+ header .logo {
+     margin-bottom: 1rem;
+      width: auto;
+  height: auto;
+}
+
+   header li a:hover {
+     color: #ffffff;
+}
+
+.hero-text{
+     background: url(../img/hero.png) no-repeat 50% 50%;
+    
+     background-size: cover;
+     height: 60vh;
+     color: white;
+ }
+
+ .hero-text a{
+ 	color: white;
+ 	background-color: #;
+ 	padding:  .5rem 1rem;
+ 	display: inline-block;
+ 	border-radius: 1rem;
+ }
+
+ footer {
+ 	margin-top: 1rem;
+     background-color: #ffffff;
+      border-top: 1rem solid #435643;
+
+   }
+   footer li a:hover {
+     color: #cfd8dc;
+   }
+main {
+	padding: 2rem;
+	smax-width: 30rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.inro{
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+img{
+	width: 100%;
+	display: block;
+}
+
+body{
+	background-color: #C7C9C5;
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.side-content{
+	border-top: none; 
+}
+
+a{
+	text-decoration: none;
+	padding: .5rem 1rem .5rem 1rem;
+}
